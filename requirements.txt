@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+tinydb
+python-dotenv
+pytest
+httpx
