@@ -8,6 +8,7 @@ The Portfolio Assistant data model is designed to support multi‑asset portfoli
 
 ## ER Diagram (ASCII)
 
+```ascii
 +---------+        1 ──── *        +------------+
 |  User   |------------------------| Portfolio  |
 +---------+                        +------------+
@@ -29,6 +30,7 @@ The Portfolio Assistant data model is designed to support multi‑asset portfoli
      |                             +------------+
      +---------------------------->|  AuditLog  |
                                    +------------+
+```
 
 Legend:
 - 1 ──── * : one-to-many relationship
